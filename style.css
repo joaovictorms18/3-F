@@ -50,6 +50,8 @@ span{
 }
 .abas-textos{
     background-color: var(--botao-inativo);
+    padding: 40px;
+    border-radius: 15px;
 }
 .abaconteudo{
     background-color: var(--texto-fundo);
@@ -58,6 +60,15 @@ span{
 
 .abaconteudo.ativo{
     display:block
+}
+.aba-coteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+.aba-conteudo-titulo-sencundario{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--verde);
 }
 
 .botao.ativo{
