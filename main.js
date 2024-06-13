@@ -1,5 +1,6 @@
 const botoes = document.querySelectorAll(".botao");
 const conteudo = document.querySelectorAll(".abaconteudo");
+const contador =document.querySelectorAll(".contador")
 
 
 for (let i = 0; i < botoes.length; i++){
