@@ -12,6 +12,18 @@ contador[1].textContent=tempoobjetivo2-agora
 contador[2].textContent=tempoobjetivo3-agora
 contador[3].textContent=tempoobjetivo4-agora
 
+let segundos
+let minutos
+let horas
+let dias
+
+//math.floor()
+segundos=(tempoobjetivo1-agora)/1000;
+minutos=segundos/60
+horas=minutos/60
+dias=horas/24
+
+contador[0].textContent= `faltam ${dias} dias,${horas} horas, ${minutos} e segundos ${segundos}`
 
 for (let i = 0; i < botoes.length; i++){
     botoes[i].onclick = function(){
