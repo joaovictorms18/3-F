@@ -15,7 +15,7 @@
 
 body{
     background-color: var(--cor-de-fundo);
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: "Chakra Petch", sans-serif;
 }
 
 span{
@@ -50,26 +50,28 @@ span{
      border-bottom: 4px solid var(--botao-ativo);
      border-left: 2px solid var(--botao-ativo);
      border-right: 2px solid var(--botao-ativo);
+     font-family: "Chakra Petch", sans-serif;
 }
+
+.abaconteudo{
+    display: none;
+}
+
+.abaconteudo.ativo{
+    display:block
+}
+
 .abas-textos{
     background-color: var(--botao-inativo);
     padding: 40px;
     border-radius: 15px;
 }
-.abaconteudo{
-    background-color: var(--texto-fundo);
-    display: none;
-}
 
-.abaconteudo.ativo{
-    display:block;
-;
-    
-}
 .aba-coteudo-titulo-principal{
     font-size: 28px;
     text-align: center;
 }
+
 .aba-conteudo-titulo-sencundario{
     text-align: center;
     text-transform: uppercase;
