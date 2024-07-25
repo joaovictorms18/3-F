@@ -25,17 +25,19 @@ dias = Math.floor(dias);
 segundos = segundos%60;
 minutos = minutos%60;
 horas = horas%24;
-return{dias, horas , minutos , segundos}
+return [dias,horas,minutos,segundos];
 }
 
 let contadorPrimeiro = calculaTempo(tempoObjetivo1);
- contador[0].textContent=`faltam ${contadorPrimeiro[0]}dias, ${contadorPrimeiro[1]}horas, ${contadorPrimeiro[2]}minutos, ${contadorPrimeiro[3]}segundos`;
+contador[0].textContent = `Faltam ${contadorPrimeiro[0]} dias, ${contadorPrimeiro[1]} horas, ${contadorPrimeiro[2]} minutos e ${contadorPrimeiro[3]} segundos.  `
 let contadorSegundo = calculaTempo(tempoObjetivo2);
- contador[1].textContent=`faltam ${contadorSegundo[0]}dias, ${contadorSegundo[1]}horas, ${contadorSegundo[2]}minutos, ${contadorSegundo[3]}segundos`;
-let contadorterceiro = calculaTempo(tempoObjetivo3);
- contador[2].textContent=`faltam ${contadorterceiro[0]}dias, ${contadorterceiro[1]}horas, ${contadorterceiro[2]}minutos, ${contadorterceiro[3]}segundos`;
-let contadorQuarto =calculaTempo(tempoObjetivo4);
- contador[3].textContent=`faltam ${contadorQuarto[0]}dias, ${contadorQuarto[1]}horas, ${contadorQuarto[2]}minutos, ${contadorQuarto[3]}segundos`;
+contador[1].textContent = `Faltam ${contadorSegundo[0]} dias, ${contadorSegundo[1]} horas, ${contadorSegundo[2]} minutos e ${contadorSegundo[3]} segundos. `
+let contadorTerceiro = calculaTempo(tempoObjetivo3);
+contador[2].textContent = `Faltam ${contadorTerceiro[0]} dias, ${contadorTerceiro[1]} horas, ${contadorTerceiro[2]} minutos e ${contadorTerceiro[3]} segundos. `
+let contadorQuarto = calculaTempo(tempoObjetivo4);
+contador[3].textContent = calculaTempo = `Faltam ${contadorQuarto[0]} dias, ${contadorQuarto[1]} horas, ${contadorQuarto[2]} minutos e ${contadorQuarto[3]} segundos. `
+
+
 
 
 for (let i = 0; i < botoes.length; i++){
