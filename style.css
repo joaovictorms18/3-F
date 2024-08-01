@@ -22,6 +22,13 @@ span{
     color: var(--verde);
 }
 
+.cotador-digito{
+    padding: 0 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
 .conteudoprin{
     display: flex;
     flex-direction: column;
