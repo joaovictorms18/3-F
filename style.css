@@ -22,13 +22,6 @@ span{
     color: var(--verde);
 }
 
-.cotador-digito{
-    padding: 0 16px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-
-}
 .conteudoprin{
     display: flex;
     flex-direction: column;
@@ -37,6 +30,24 @@ span{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.contador{
+    padding: 0 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;           
+}
+.contador-digito-numero{
+font-size: 80px;
+margin: 0;
+padding: 0 10px;
+}
+
+.contador-digito-texto{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
 }
 
 .titulo{
@@ -60,7 +71,7 @@ span{
      font-family: "Chakra Petch", sans-serif;
 }
 
-.abaconteudo{
+.aba-conteudo{
     display: none;
 }
 
